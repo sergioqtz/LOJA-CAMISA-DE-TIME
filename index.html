@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Camisas de Time</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <img src="imagens/logo.png" alt="Logo da Loja" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Principal -->
+    <section id="home" class="hero">
+        <h1>Bem-vindo à Loja de Camisas de Time!</h1>
+        <p>Encontre a camisa do seu time favorito com a melhor qualidade!</p>
+        <!-- Botão que leva para a seção de produtos -->
+        <a href="#produtos" class="btn">Ver Produtos</a>
+    </section>
+
+    <!-- Seção de Produtos -->
+    <section id="produtos" class="produtos">
+        <h2>Nossos Produtos</h2>
+        <div class="grid">
+            <div class="produto">
+                <img src="imagens/camisa1.jpg" alt="Camisa 1">
+                <h3>Camisa do Time A</h3>
+                <p>R$120,00</p>
+                <button onclick="window.location.href='#contato'">Comprar</button>
+            </div>
+            <div class="produto">
+                <img src="imagens/camisa2.jpg" alt="Camisa 2">
+                <h3>Camisa do Time B</h3>
+                <p>R$150,00</p>
+                <button onclick="window.location.href='#contato'">Comprar</button>
+            </div>
+            <div class="produto">
+                <img src="imagens/camisa3.jpg" alt="Camisa 3">
+                <h3>Camisa do Time C</h3>
+                <p>R$180,00</p>
+                <button onclick="window.location.href='#contato'">Comprar</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Somos uma loja especializada em camisas de futebol, oferecendo produtos oficiais e de alta qualidade para os torcedores. Nosso objetivo é trazer os melhores produtos a preços acessíveis, proporcionando uma ótima experiência de compra para nossos clientes.</p>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contato" class="contato">
+        <h2>Contato</h2>
+        <p>Email: contato@lojadecamisas.com</p>
+        <p>Telefone: (11) 1234-5678</p>
+        <p>Endereço: Rua das Camisas, 123 - São Paulo, SP</p>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Loja de Camisas de Time. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
